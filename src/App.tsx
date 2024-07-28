@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Menu from './Menu';
-import Home from './home';
+import Home from './Home';
 
 function App(){
     const [showMenu, setMenuVis] = useState(false);
