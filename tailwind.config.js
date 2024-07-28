@@ -5,7 +5,11 @@ export default {
     "./index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-page': "url('public/landing.jpg')",
+      },
+    },
   },
   plugins: [],
 }
