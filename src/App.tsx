@@ -4,16 +4,22 @@ import Home from './Home';
 
 function App(){
     const [showMenu, setMenuVis] = useState(false);
+    const [fontColor, setFontColor] = useState('text-black');
 
     function toggleMenu(e:React.MouseEvent<HTMLButtonElement,MouseEvent>){
         e.preventDefault();
         setMenuVis(!showMenu);
-        console.log(showMenu);
+        if(fontColor==='text-black') setFontColor('text-white');
+        else setFontColor('text-black');
     }
     return(
         <>
-         <Home toggleMenu = {toggleMenu}></Home>
-         <Menu show={showMenu}></Menu>
+         <Menu show={showMenu}
+               toggleMenu={toggleMenu}>
+        </Menu>
+         <Home fontColor={fontColor}
+               toggleMenu = {toggleMenu}>
+         </Home>
         </>
     )
 }

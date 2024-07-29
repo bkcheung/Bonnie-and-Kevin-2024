@@ -1,15 +1,19 @@
 interface menuProps{
     show: boolean
+    toggleMenu:(e:React.MouseEvent<HTMLButtonElement,MouseEvent>)=>void;
+
 }
-function Menu({show}:menuProps){
+function Menu({show, toggleMenu}:menuProps){
     let showMenu = 'hidden';
     if(show){
         showMenu = '';
     }
     return(
-        <div className={showMenu+' w-80 h-lvh'}>
-            <div className='flex flex-col p-5 bg-white w-80 h-lvh'>
-                <h3>Bonnie & Kevin</h3>
+        <div className={showMenu +' fixed w-80 h-lvh bg-white/95'}>
+            <div className='flex flex-col p-10'>
+                <button className="w-fit ml-auto text-gray-500"
+                        onClick={toggleMenu}>X</button>
+                <h3 className="text-3xl mt-10 mb-5">Bonnie & Kevin</h3>
                 <a>Program</a>
                 <a>Worship Lyrics</a>
                 <a>Map</a>
