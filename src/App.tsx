@@ -7,12 +7,10 @@ import Worship from './Worship';
 function App() {
     const [activePage, setPage] = useState(0);
     const [showMenu, setMenuVis] = useState(false);
-    const [fontColor, setFontColor] = useState('text-black');
 
     function toggleMenu(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
         e.preventDefault();
         setMenuVis(!showMenu);
-        // fontColor==='text-black' ? setFontColor('text-white') : setFontColor('text-black');
     }
     function changePage(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
         e.preventDefault();
@@ -26,9 +24,7 @@ function App() {
                   toggleMenu={toggleMenu}
                   change={changePage}>
             </Menu>
-            <Home fontColor={fontColor}
-                  isActive={activePage===0}>
-            </Home>
+            <Home isActive={activePage===0}></Home>
             <Program isActive={activePage===1}></Program>
             <Worship isActive={activePage===2}></Worship>
         </>
