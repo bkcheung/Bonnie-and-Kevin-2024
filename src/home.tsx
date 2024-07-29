@@ -1,14 +1,13 @@
 interface homeProps{
     fontColor: string;
-    toggleMenu:(e:React.MouseEvent<HTMLButtonElement,MouseEvent>)=>void;
+    isActive: boolean;
 }
 
-function Home({fontColor, toggleMenu}:homeProps){
+function Home({fontColor, isActive}:homeProps){
+    const state = isActive ? '':'hidden';
     return(
-        <div className="bg-home-page bg-cover bg-top w-lvw h-lvh flex-col">
-            <button className={fontColor + " text-2xl m-10 opacity-75"}
-                    onClick={toggleMenu}>Menu</button>
-            <div className={fontColor + " text-4xl mx-20 my-5 text-center"}>
+        <div className={state+" bg-home-page bg-cover bg-top w-lvw h-lvh flex-col"}>
+            <div className={fontColor + " absolute top-32 text-4xl px-20 text-center"}>
                  We're so glad you're here!</div>
         </div>
     )
