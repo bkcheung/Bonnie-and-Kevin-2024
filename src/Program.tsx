@@ -1,7 +1,11 @@
-function Program(){
+interface programProps{
+    isActive: boolean;
+}
+function Program({isActive}:programProps){
+    const state = isActive ? '':'hidden';
     return(
-        <div className='flex flex-col items-center m-10'>
-            <h3 className="my-5">Program</h3>
+        <div className={state+' flex flex-col items-center p-10'}>
+            <h3 className="pt-20 pb-5">Program</h3>
             <h2>4:30PM - Ceremony Begins</h2>
             <h2>5:30PM- Cocktail hour</h2>
             <h2>6:30PM - Reception Begins</h2>
