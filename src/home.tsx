@@ -4,10 +4,6 @@ interface homeProps{
 }
 
 function Home({fontColor, toggleMenu}:homeProps){
-    // let textVis = 'text-white'
-    // if(showMenu){
-    //     textVis = 'text-black';
-    // }
     return(
         <div className="bg-home-page bg-cover bg-top w-lvw h-lvh flex-col">
             <button className={fontColor + " text-2xl m-10 opacity-75"}

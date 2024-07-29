@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Menu from './Menu';
 import Home from './Home';
+import Program from './Program';
 
 function App(){
     const [showMenu, setMenuVis] = useState(false);
@@ -16,10 +17,11 @@ function App(){
         <>
          <Menu show={showMenu}
                toggleMenu={toggleMenu}>
-        </Menu>
+         </Menu>
          <Home fontColor={fontColor}
                toggleMenu = {toggleMenu}>
          </Home>
+         <Program></Program>
         </>
     )
 }

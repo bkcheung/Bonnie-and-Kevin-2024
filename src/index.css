@@ -23,5 +23,15 @@ button {
   font-family: inherit;
   background-color: #fffefe;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25;
+}
+h3{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+h2{
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }

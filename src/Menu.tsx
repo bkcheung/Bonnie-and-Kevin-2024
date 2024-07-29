@@ -1,13 +1,11 @@
 interface menuProps{
-    show: boolean
+    show: boolean;
     toggleMenu:(e:React.MouseEvent<HTMLButtonElement,MouseEvent>)=>void;
 
 }
 function Menu({show, toggleMenu}:menuProps){
-    let showMenu = 'hidden';
-    if(show){
-        showMenu = '';
-    }
+    const showMenu = show ? "" : "hidden" 
+
     return(
         <div className={showMenu +' fixed w-80 h-lvh bg-white/95'}>
             <div className='flex flex-col p-10'>
