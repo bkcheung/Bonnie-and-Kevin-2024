@@ -11,16 +11,15 @@ function App() {
     function toggleMenu(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
         e.preventDefault();
         setMenuVis(!showMenu);
-        if (fontColor === 'text-black') setFontColor('text-white');
-        else setFontColor('text-black');
+        fontColor==='text-black' ? setFontColor('text-white') : setFontColor('text-black');
     }
     return (
         <>
             <Menu show={showMenu}
-                toggleMenu={toggleMenu}>
+                  toggleMenu={toggleMenu}>
             </Menu>
             <Home fontColor={fontColor}
-                toggleMenu={toggleMenu}>
+                  toggleMenu={toggleMenu}>
             </Home>
             <Program></Program>
             <Worship></Worship>
