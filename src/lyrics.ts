@@ -1,7 +1,7 @@
 export const shoutToTheLord = {
-    id: 0,
-    title: 'Shout to The Lord x What a Beautiful Name',
-    lyrics:`My Jesus my Saviour\n\
+  id: 0,
+  title: "Shout to The Lord x What a Beautiful Name",
+  lyrics: `My Jesus my Saviour\n\
 Lord there is none like you\n\
 All of my days I want to praise \n\
 The wonders of your mighty love\n\
@@ -74,13 +74,13 @@ What a powerful Name it is\n\
 The Name of Jesus\n\
 \n\
 What a powerful Name it is\n\
-The Name of Jesus`
-}
+The Name of Jesus`,
+};
 
 export const howGreatIsOurGod = {
-    id: 1,
-    title: `How Great is Our God`,
-    lyrics: `The splendor of a King\n\
+  id: 1,
+  title: `How Great is Our God`,
+  lyrics: `The splendor of a King\n\
 Clothed in majesty\n\
 Let all the earth rejoice\n\
 Let all the earth rejoice\n\
@@ -117,7 +117,7 @@ How great is our God x2\n\
 How great is our God sing with me\n\
 How great is our God and all will see\n\
 How great how great\n\
-Is our God`
-}
+Is our God`,
+};
 
-export default [shoutToTheLord, howGreatIsOurGod]
+export default [shoutToTheLord, howGreatIsOurGod];
