@@ -6,7 +6,7 @@ interface menuProps {
     change: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 
 }
-function Menu({ show, toggleMenu, change }: menuProps) {
+function Menu({show, toggleMenu, change }: menuProps) {
     return (
         <div>
             <button className={cx('fixed text-2xl m-10 bg-white/75 text-center px-5 py-3', 

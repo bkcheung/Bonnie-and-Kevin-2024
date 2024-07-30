@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'home-page': "url('public/landing.jpg')",
+        'sky': "url('public/sky.png')"
       },
     },
   },

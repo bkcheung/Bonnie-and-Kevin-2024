@@ -4,7 +4,7 @@ interface programProps{
 function Program({isActive}:programProps){
     const state = isActive ? '':'hidden';
     return(
-        <div className={state+' flex flex-col items-center p-10'}>
+        <div className={state+' flex flex-col items-center p-10 bg-sky bg-cover'}>
             <h3 className="pt-20 pb-5">Program</h3>
             <h2>4:30PM - Ceremony Begins</h2>
             <h2>5:30PM- Cocktail hour</h2>
