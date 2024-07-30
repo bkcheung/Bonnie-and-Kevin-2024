@@ -76,7 +76,6 @@ The Name of Jesus\n\
 What a powerful Name it is\n\
 The Name of Jesus`,
 };
-
 export const howGreatIsOurGod = {
   id: 1,
   title: `How Great is Our God`,
@@ -119,5 +118,16 @@ How great is our God and all will see\n\
 How great how great\n\
 Is our God`,
 };
+export const songs = [shoutToTheLord, howGreatIsOurGod];
 
-export default [shoutToTheLord, howGreatIsOurGod];
+export const photos =
+`1. With Groom’s paternal extended family \n\
+2. With Groom’s maternal extended family\n\
+3. With Bride’s family friends\n\
+4. Richmond Hill Christian Community Church\n\
+5. Waterloo\n\
+6. Richmond Hill High School\n\
+8. St Robs & 16th Avenue \n\
+9. California\n\
+10. New York\n\
+11. Toronto`
