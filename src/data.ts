@@ -121,9 +121,9 @@ Is our God`,
 export const songs = [shoutToTheLord, howGreatIsOurGod];
 
 export const photos =
-`1. With Groom’s paternal extended family \n\
-2. With Groom’s maternal extended family\n\
-3. With Bride’s family friends\n\
+`1. Groom’s paternal extended family \n\
+2. Groom’s maternal extended family\n\
+3. Bride’s family friends\n\
 4. Richmond Hill Christian Community Church\n\
 5. Waterloo\n\
 6. Richmond Hill High School\n\

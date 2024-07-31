@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Home from "./Home";
 import Program from "./Program";
 import Worship from "./Worship";
+import Photos from "./Photos";
 
 function App() {
   const [activePage, setPage] = useState(0);
@@ -24,6 +25,7 @@ function App() {
       <Home isActive={activePage === 0}></Home>
       <Program isActive={activePage === 1}></Program>
       <Worship isActive={activePage === 2}></Worship>
+      <Photos isActive={activePage===3}></Photos>
     </>
   );
 }

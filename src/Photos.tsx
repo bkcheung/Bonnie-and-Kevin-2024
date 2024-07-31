@@ -6,9 +6,9 @@ interface photoProps{
 }
 function Photos({isActive}:photoProps){
     return(
-        <div className={cx('text-3xl',isActive?'':'hidden')}>
-            <h3>Photo Order</h3>
-            <div>{photos}</div>
+        <div className={cx('text-3xl p-10 bg-sky bg-cover min-h-lvh text-center',isActive?'':'hidden')}>
+            <h3 className='pt-20 pb-8'>Photo Order</h3>
+            <div className='whitespace-break-spaces text-2xl leading-loose'>{photos}</div>
         </div>
     )
 }
