@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'home-page': "url('public/landing.jpg')",
-        'sky': "url('public/sky.png')"
+        'home-page': "url('/landing.jpg')",
+        'sky': "url('/sky.png')"
       },
     },
   },
