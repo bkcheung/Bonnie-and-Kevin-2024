@@ -10,7 +10,7 @@ function Menu({ show, toggleMenu, change }: menuProps) {
     <div>
       <button
         className={cx(
-          "fixed text-2xl m-10 bg-white/75 text-center px-5 py-3",
+          "fixed text-2xl m-10 bg-white/75 text-center px-5 py-3 z-50",
           show && "hidden",
         )}
         onClick={toggleMenu}
