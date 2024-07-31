@@ -24,12 +24,11 @@ function Menu({ show, toggleMenu, change }: menuProps) {
         )}
       >
         <div id="menu" className="flex flex-col p-10">
-          <button className="w-fit ml-auto text-gray-500" onClick={toggleMenu}>
-            X
+          <button className="w-fit ml-auto text-gray-500 p-0" onClick={toggleMenu}>
+            x
           </button>
-          <h3 className="text-3xl my-5">Bonnie & Kevin</h3>
-          <button id="0" onClick={change}>
-            Home
+          <button id="0" onClick={change} className="text-3xl">
+            Bonnie & Kevin
           </button>
           <button id="1" onClick={change}>
             Program
@@ -47,10 +46,7 @@ function Menu({ show, toggleMenu, change }: menuProps) {
             Seating Chart
           </button>
           <button id="6" onClick={change}>
-            Trivia
-          </button>
-          <button id="7" onClick={change}>
-            Photos
+            Photo Sharing
           </button>
         </div>
       </div>
