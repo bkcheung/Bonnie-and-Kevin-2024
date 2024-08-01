@@ -23,10 +23,10 @@ function Seating({ isActive }: seatProps) {
       <h2>Seating Chart can also be found near the reception tent entrance</h2>
       <div>
         <h2>Please enter your name:</h2>
-        <input placeholder="Name" onChange={nameChange}></input>
+        <input placeholder="Name" onChange={nameChange} className="p-2 rounded-lg opacity-75"></input>
         {seats[guestName.toLowerCase()] !== undefined && (
-          <div className="pt-10 whitespace-break-spaces">
-            {`Welcome ${guestName}!\nYou are seated at Table ${seats[guestName]}`}
+          <div className="text-xl pt-10 whitespace-break-spaces">
+            {`Welcome ${guestName}!\nYou are seated at Table ${seats[guestName.toLowerCase()]}`}
           </div>
         )}
         <img src="seating.png" className="my-10"></img>
