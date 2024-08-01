@@ -8,3 +8,4 @@ A wedding website for Bonnie & Kevin's wedding guests!
 * Tailwind
 
 [Click Here!](https://bkcheung.github.io/Bonnie-and-Kevin-2024/)
+Note: only optimized for mobile at the moment
