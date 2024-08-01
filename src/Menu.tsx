@@ -45,9 +45,6 @@ function Menu({ show, toggleMenu, change }: menuProps) {
           <button id="4" onClick={change}>
             Seating Chart
           </button>
-          {/* <button id="5" onClick={change}>
-            Photo Sharing
-          </button> */}
         </div>
       </div>
     </div>
