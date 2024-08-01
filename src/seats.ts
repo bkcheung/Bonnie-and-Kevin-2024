@@ -62,7 +62,7 @@ const seats: Record<string, string> = {
 "wendy soung chen": "Table 6",
 "anthea lai": "Table 7",
 "daniel pang": "Table 7",
-"vincent dao": "Table Multiplier",
+"vincent dao": "Table 7",
 "erika lee": "Table 7",
 "natalie chan": "Table 7",
 "sean siow": "Table 7",
