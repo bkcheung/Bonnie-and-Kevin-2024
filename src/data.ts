@@ -120,8 +120,7 @@ Is our God`,
 };
 export const songs = [shoutToTheLord, howGreatIsOurGod];
 
-export const photos =
-`1. Groom’s paternal extended family \n\
+export const photos = `1. Groom’s paternal extended family \n\
 2. Groom’s maternal extended family\n\
 3. Bride’s family friends\n\
 4. Richmond Hill Christian Community Church\n\
@@ -130,4 +129,4 @@ export const photos =
 8. St Robs & 16th Avenue \n\
 9. California\n\
 10. New York\n\
-11. Toronto`
+11. Toronto`;

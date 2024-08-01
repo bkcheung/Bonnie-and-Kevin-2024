@@ -1,4 +1,4 @@
-import {songs} from "./data";
+import { songs } from "./data";
 import cx from "classnames";
 
 interface worshipProps {

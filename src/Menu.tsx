@@ -24,7 +24,10 @@ function Menu({ show, toggleMenu, change }: menuProps) {
         )}
       >
         <div id="menu" className="flex flex-col p-10">
-          <button className="w-fit ml-auto text-gray-500 p-0" onClick={toggleMenu}>
+          <button
+            className="w-fit ml-auto text-gray-500 p-0"
+            onClick={toggleMenu}
+          >
             x
           </button>
           <button id="0" onClick={change} className="text-3xl">
