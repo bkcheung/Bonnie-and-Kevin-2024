@@ -4,6 +4,7 @@ import Home from "./Home";
 import Program from "./Program";
 import Worship from "./Worship";
 import Photos from "./Photos";
+import Seating from "./Seating";
 
 function App() {
   const [activePage, setPage] = useState(0);
@@ -19,6 +20,7 @@ function App() {
     setPage(Number(page.id));
     toggleMenu(e);
   }
+  
   return (
     <>
       <Menu show={showMenu} toggleMenu={toggleMenu} change={changePage}></Menu>
@@ -26,6 +28,7 @@ function App() {
       <Program isActive={activePage === 1}></Program>
       <Worship isActive={activePage === 2}></Worship>
       <Photos isActive={activePage===3}></Photos>
+      <Seating isActive={activePage===4}></Seating>
     </>
   );
 }

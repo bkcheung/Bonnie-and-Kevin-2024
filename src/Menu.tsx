@@ -40,14 +40,11 @@ function Menu({ show, toggleMenu, change }: menuProps) {
             Photo Order
           </button>
           <button id="4" onClick={change}>
-            Map
-          </button>
-          <button id="5" onClick={change}>
             Seating Chart
           </button>
-          <button id="6" onClick={change}>
+          {/* <button id="5" onClick={change}>
             Photo Sharing
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
