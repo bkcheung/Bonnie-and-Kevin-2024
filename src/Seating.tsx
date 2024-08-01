@@ -15,7 +15,7 @@ function Seating({ isActive }: seatProps) {
   return (
     <div
       className={cx(
-        "flex flex-col items-center text-center p-10 bg-sky bg-cover h-lvh",
+        "flex flex-col items-center text-center p-10 bg-sky bg-cover min-h-lvh",
         !isActive && "hidden",
       )}
     >
@@ -26,10 +26,10 @@ function Seating({ isActive }: seatProps) {
         <input placeholder="Name" onChange={nameChange} className="p-2 rounded-lg opacity-75"></input>
         {seats[guestName.toLowerCase()] !== undefined && (
           <div className="text-xl pt-10 whitespace-break-spaces">
-            {`Welcome ${guestName}!\nYou are seated at Table ${seats[guestName.toLowerCase()]}`}
+            {`Welcome ${guestName}!\nYou are seated at ${seats[guestName.toLowerCase()]}`}
           </div>
         )}
-        <img src="seating.png" className="my-10"></img>
+        <img src="seating.png" className="py-10"></img>
       </div>
     </div>
   );
